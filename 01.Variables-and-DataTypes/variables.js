@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 
 // * Variables
 
@@ -60,4 +60,3 @@ const fruits = ['Apple', 'Mango'];
 fruits.push('African Star Apple');
 
 console.log(fruits);
-
