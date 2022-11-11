@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM - Document Object Model</title>
+  </head>
+  <body class="id">
+    <header>
+      <h1>DOM - Document Object Model</h1>
+    </header>
+    <main class="container">
+      <section>
+        <h2>Definition</h2>
+        <p id="first-paragraph">
+          The Document Object Model (DOM) connects web pages to scripts or
+          programming languages by representing the structure of a document—such
+          as the HTML representing a web page—in memory. Usually it refers to
+          JavaScript, even though modeling HTML, SVG, or XML documents as
+          objects are not part of the core JavaScript language.
+        </p>
+
+        <p>
+          The DOM represents a document with a logical tree. Each branch of the
+          tree ends in a node, and each node contains objects. DOM methods allow
+          programmatic access to the tree. With them, you can change the
+          document's structure, style, or content. Nodes can also have event
+          handlers attached to them. Once an event is triggered, the event
+          handlers get executed.
+        </p>
+      </section>
+
+      <section>
+        <h2>Fundamental data types</h2>
+        <ol id="list">
+          <li class="list-item">Document</li>
+          <li class="list-item">Node</li>
+          <li class="list-item">Element</li>
+          <li class="list-item">NodeList</li>
+          <li class="list-item">Attr</li>
+          <li class="list-item">NamedNodeMap</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Form</h2>
+        <form action="">
+          <label for="hobby">Hobby 1</label>
+          <input type="text" name="hobby" />
+          <!-- ! Don't use <br/> for styling -->
+          <br />
+          <br />
+          <label for="hobby">Hobby 2</label>
+          <input type="text" name="hobby" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2022 All rights reserved</p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
