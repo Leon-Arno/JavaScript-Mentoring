@@ -1,0 +1,37 @@
+body {
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+}
+
+h1,
+form {
+  margin: 40px;
+}
+
+.fields {
+  margin: 40px 0px;
+}
+
+h1 {
+  font-weight: 700;
+}
+button[type='submit'],
+button[type='reset'] {
+  font-weight: 700;
+}
+
+button[type='reset'] {
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button[type='submit'] {
+  color: #ffffff;
+  background-color: rgb(23, 83, 246);
+}
+button[type='submit']:hover {
+  color: rgb(23, 83, 246);
+  background-color: #ffffff;
+  border: 1px solid rgb(23, 83, 246);
+  transition: ease-in 0.2s;
+}
